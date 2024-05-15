@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    background-image: url(/img/agentes_bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    margin-top: 10%;
+} 
+
+main{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -5%;
+}
+
+h1{
+    font-size: 3em;
+    color: #ff3a4b;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+
+.qualquerAgente{
+    width: 150px;
+    height: 80px;
+    font-size: 1.5em;
+    color: #a1a8ad;
+    background: #1c1c27;
+    margin-left: 32%;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 8px;
+    
+}
+
+.qualquerAgente:hover{
+    width: 150px;
+    height: 80px;
+    font-size: 1.5em;
+    color: #ebebeb;
+    background: rgb(87, 85, 85);
+    cursor: pointer;
+}
+
+.section1{
+    width: 450px;
+    height: auto;
+    background: #000;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+#nomeAgentes{
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+#imagensAgentes{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
